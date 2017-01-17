@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Wed Apr 27 21:34:37 ART 2016
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=true
+jarname=Ascensor.jar
+manifest.mergeall=true
+manifest.mainclass=visual.Principal
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

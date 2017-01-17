@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+
+public <greet> = (Iniciar Reconocimiento);
+public <command> = (Iralpiso)  (uno| dos | tres | cuatro | cinco | seis | siete| ocho | nueve | diez | once | doce | trece |catorce | quince | diezyseis | diezysiete | diezyocho | diezynueve | veinte | veintiuno | veintidos | veintitres | veinticuatro | veinticinco | veintiseis | veintisiete | veintiocho | veintinueve | treinta | treintayuno | treintaydos | treintaytres | treintaycuatro | treintaycinco | treintayseis | treintaysiete | treintaysiete | treintayocho | treintaynueve | cuarenta | cuarentayuno | cuarentaydos | cuarentaytres | cuarentaycuatro | cuarentaycinco | cuarentayseis | cuarentaysiete | cuarentayocho | cuarentaynueve | cincuenta | cincuentayuno | cincuentaydos | cincuentaytres | cincuentaycuatro | cincuentaycinco | cincuentayseis | cincuentaysiete | cincuentayocho | cincuentaynueve | sesenta )  ;
+public <commandDos> = (Ira) [primer | segundo | tercer | cuarto | quinto | sexto | septimo | octavo | noveno] (subsuelo)  ;
+public <Especiales> = (Ira) (plantabaja | terraza | azotea  |  lobi )  ;
